@@ -1,297 +1,298 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo - Heloísa da Silva Contrera</title>
-    
-    <style>
-        body { 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-            line-height: 1.6; 
-            margin: 0; 
-            padding: 20px; 
-            color: #333; 
-            background-color: #f9f9f9; 
-            transition: background-color 0.3s, color 0.3s; 
-        }
-        .container { 
-            max-width: 800px; 
-            margin: auto; 
-            background: white; 
-            padding: 20px; 
-            box-shadow: 0 0 10px rgba(0,0,0,0.1); 
-            transition: background 0.3s, box-shadow 0.3s;
-        }
-        header { text-align: center; border-bottom: 2px solid #007bff; padding-bottom: 20px; margin-bottom: 20px; position: relative; }
-        .photo { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0 auto 10px; display: block; border: 3px solid #007bff; }
-        h1 { color: #007bff; margin: 10px 0; }
-        h2 { color: #0056b3; border-bottom: 1px solid #ddd; padding-bottom: 5px; margin-top: 30px; }
-        ul { list-style-type: disc; margin-left: 20px; }
-        .contact { font-weight: bold; margin-bottom: 10px; }
-        .section { margin-bottom: 20px; }
-        a { color: #007bff; text-decoration: none; transition: color 0.3s; }
-        a:hover { text-decoration: underline; }
-        footer { text-align: center; margin-top: 40px; font-size: 0.9em; color: #666; }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heloísa Contrera - Currículo</title>
 
-        .dark-mode {
-            background-color: #121212 !important;
-            color: #e0e0e0 !important;
-        }
-        .dark-mode .container {
-            background: #1e1e1e;
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-        }
-        .dark-mode header { border-bottom-color: #90caf9; }
-        .dark-mode h1 { color: #90caf9; }
-        .dark-mode h2 { color: #bbdefb; border-bottom-color: #333; }
-        .dark-mode a { color: #90caf9; }
-        .dark-mode .photo { border-color: #90caf9; }
-        .dark-mode #utility-bar button {
-            background: #333;
-            color: #bbdefb;
-            border-color: #bbdefb;
-        }
+<style>
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #f5f7fa;
+    color: #333;
+    transition: 0.3s;
+}
 
-        #utility-bar {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            display: flex;
-            gap: 10px;
-            z-index: 1000;
-        }
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
 
-        #utility-bar button {
-            padding: 8px 12px;
-            border: 2px solid #007bff;
-            background: #007bff;
-            color: white;
-            border-radius: 20px;
-            cursor: pointer;
-            font-size: 14px;
-            transition: all 0.3s;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-width: 40px;
-        }
-        
-        #utility-bar button:hover {
-            background: #0056b3;
-            border-color: #0056b3;
-        }
+header {
+    text-align: center;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 20px;
+}
 
-        #theme-toggle {
-            padding: 8px 12px;
-            border-radius: 20px;
-        }
+.photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #2563eb;
+    object-fit: cover;
+}
 
-        @media print {
-            #utility-bar {
-                display: none;
-            }
-            
-            body {
-                padding: 40px !important;
-            }
-            .container {
-                box-shadow: none;
-                margin: 0 auto;
-                max-width: 100%;
-                padding: 0;
-            }
-            
-            .section {
-                break-inside: avoid;
-            }
+h1 {
+    margin: 10px 0;
+    color: #2563eb;
+}
 
-            .contact {
-                font-size: 0.8em;
-                margin-bottom: 5px;
-            }
+.subtitle {
+    font-weight: bold;
+}
 
-            header { 
-                padding-bottom: 10px; 
-                margin-bottom: 10px; 
-            }
-            
-            .contact a {
-                color: #007bff !important;
-            }
-        }
-    </style>
+.tagline {
+    font-size: 14px;
+    color: #555;
+}
+
+.links a {
+    color: #2563eb;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+h2 {
+    border-left: 4px solid #2563eb;
+    padding-left: 10px;
+    color: #222;
+}
+
+.card {
+    background: #f9fafc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.badge {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin: 3px;
+}
+
+#utility-bar {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.dark {
+    background: #121212;
+    color: #eee;
+}
+
+.dark .container {
+    background: #1e1e1e;
+    box-shadow: 0 10px 30px rgba(255,255,255,0.05);
+}
+
+.dark .card {
+    background: #2a2a2a;
+}
+
+.dark h1,
+.dark h2 {
+    color: #90caf9;
+}
+
+.dark p,
+.dark li {
+    color: #e0e0e0;
+}
+
+.dark .tagline {
+    color: #bbb;
+}
+
+.dark a {
+    color: #90caf9;
+}
+
+.dark .badge {
+    background: #90caf9;
+    color: #121212;
+}
+
+.dark header {
+    border-bottom: 2px solid #90caf9;
+}
+
+</style>
 </head>
+
 <body>
-    <div id="utility-bar">
-        <button id="theme-toggle" title="Alternar Modo Escuro/Claro">
-            Modo Escuro 
-        </button>
 
-        <button onclick="window.print()">
-            Salvar PDF
-        </button>
-    </div>
+<div id="utility-bar">
+    <button onclick="toggleTheme()">🌙 / ☀️</button>
+    <button onclick="window.print()">PDF</button>
+</div>
 
-    <div class="container">
-        <header>
-            <img src="foto_heloisa.png" alt="Foto de Heloísa Contrera" class="photo">
-            <h1>Heloísa da Silva Contrera</h1>
-            <p><strong>Desenvolvedora Full Stack Júnior</strong></p>
-            <p>Campo Mourão – PR • Disponível para contratação</p>
-            <p class="contact">
-                helo.contreta@gmail.com | (44) 98462-1387 | <a href="https://github.com/HeloSilvaC">GitHub</a> | <a href="http://www.linkedin.com/in/heloísa-contrera">LinkedIn</a> | <a href="https://helosilvac.github.io/meu-curriculo/" target="_blank">Currículo Web</a>
-            </p>
-        </header>
+<div class="container">
 
-        <section class="section">
-            <h2>Resumo Profissional</h2>
-            <p id="resumo">Desenvolvedora Júnior com experiência prática em desenvolvimento web focado em PHP e fundamentação acadêmica em Ciência da Computação (UTFPR). Paixão por boas práticas de código, padrões de projeto e arquitetura de software escalável. Domino ferramentas como Git e busco integrar minhas habilidades de codificação e análise lógica para construir soluções robustas e inovadoras.</p>
-        </section>
+<header>
+    <img src="foto_heloisa.png" class="photo">
+    <h1>Heloísa da Silva Contrera</h1>
 
-        <section class="section">
-            <h2>Experiência Profissional</h2>
-            <h3>Desenvolvedora Júnior (Foco em PHP)</h3>
-            <p><em>Paghiper — Paranavaí, PR — dez/2023 – presente (Home Office, Meio Período)</em></p>
-            <ul id="experiencia-paghiper">
-                <li>Desenvolvimento e manutenção de funcionalidades <strong>back-end em PHP</strong> em sistemas legados e novos módulos.</li>
-                <li>Implementação ativa de boas práticas de código e princípios de desenvolvimento limpo (<strong>clean code</strong>) para otimizar a manutenibilidade e escalabilidade do software.</li>
-                <li>Utilização de <strong>MySQL</strong> e ferramentas como <strong>XAMPP/Bootstrap/JavaScript</strong> no ciclo de desenvolvimento.</li>
-                <li>Colaboração direta em equipes ágeis, contribuindo para a <strong>depuração eficiente</strong> de <strong>bugs</strong> e o alcance de metas de entrega.</li>
-            </ul>
-        </section>
+    <p class="subtitle">Desenvolvedora Back-end Júnior</p>
+    <p class="tagline">🚀 +1 ano com sistemas em produção • PHP • MySQL • Bootstrap</p>
 
-        <section class="section" id="habilidades-tecnicas">
-            <h2>Habilidades Técnicas</h2>
-            <p>
-                <strong>Back-end:</strong> PHP (Experiência profissional), Java, Python, C, SOLID, Padrões de Projeto, TDD, MVC.
-            </p>
-            <p>
-                <strong>Front-end:</strong> HTML5, CSS3, JavaScript, TypeScript, Bootstrap.
-            </p>
-            <p>
-                <strong>DevOps/Ferramentas:</strong> Git, GitLab, CI/CD (Básico), Docker, Linux, MySQL, XAMPP, VSCode.
-            </p>
-        </section>
+    <p class="links">
+        <a href="https://github.com/HeloSilvaC">GitHub</a> |
+        <a href="https://www.linkedin.com/in/heloísa-contrera">LinkedIn</a>
+    </p>
+</header>
 
-        <section class="section">
-            <h2>Habilidades Comportamentais (Soft Skills)</h2>
-            <ul>
-                <li>Comunicação eficaz (Reuniões ágeis)</li>
-                <li>Trabalho em Equipe, Empatia e Comprometimento</li>
-                <li>Abordagem investigativa para depuração de código</li>
-                <li>Capacidade de trabalhar remotamente e Aprendizado rápido</li>
-            </ul>
-        </section>
+<div class="section">
+<h2>Resumo</h2>
+<p>
+Desenvolvedora Back-end Júnior com experiência prática em sistemas web em produção utilizando PHP e MySQL.
+Atualmente atuo na PagHiper e curso Ciência da Computação na UTFPR.
+Tenho base em lógica, estruturas de dados e linguagem C, com interesse em desenvolvimento eficiente e seguro.
+</p>
+</div>
 
-        <section class="section">
-            <h2>Projetos e Contribuições</h2>
-            <ul>
-                <li><strong>Gerador de Números Pseudo-Aleatórios</strong> — <strong>Python</strong> | IFPR — 2021-2022<br>Algoritmo de geração de números e aproximação de π (bolsa PESEM), com erro de precisão reduzido a <strong>0,001%</strong>.</li>
-                <li><strong>MANNAPY — Robô Educacional Autônomo</strong> — <strong>Python</strong> • <strong>C++</strong> • <strong>IoT</strong> — 2023<br>Robô autônomo com sensores e integração hardware/software, usado em workshops educacionais. Apresentado em eventos como X SETIF e VI SIPEN.</li>
-                <li><strong>Padrões de Projeto e SOLID</strong> — <strong>PHP</strong> • <strong>Java</strong> — 2023<br>Aplicação prática de padrões (Factory, Strategy) e princípios SOLID em aplicações web.</li>
-                <li><strong>Repositório de Algoritmos</strong> — <strong>C</strong> • <strong>Python</strong> — 2022-2024<br>Implementação de estruturas de dados e algoritmos clássicos, com foco em eficiência.</li>
-            </ul>
-        </section>
+<div class="section">
+<h2>Experiência</h2>
+<div class="card">
+<strong>PagHiper — Desenvolvedora Back-end Júnior</strong><br>
+<small>Dez/2023 – Atual</small>
 
-        <section class="section">
-            <h2>Formação Acadêmica</h2>
-            <h3><strong>Bacharelado em Ciência da Computação</strong></h3>
-            <p><em>UTFPR — Campus Campo Mourão — 4º período - 2024 - em andamento</em></p>
-            <p>Foco em <strong>algoritmos, estruturas de dados, arquitetura de software e engenharia de dados</strong>.</p>
-            <h3><strong>Ensino Médio Integrado ao Técnico em Informática</strong></h3>
-            <p><em>IFPR — Campus Paranavaí — 2020–2023</em></p>
-            <p>Formação técnica em <strong>programação</strong>, <strong>banco de dados</strong> (MySQL/SQL) e desenvolvimento de sistemas.</p>        
-        </section>
+<ul>
+<li>Desenvolvimento e manutenção de sistemas web em produção</li>
+<li>Criação e melhoria de funcionalidades em PHP</li>
+<li>Manipulação e otimização de banco de dados MySQL</li>
+<li>Correção de bugs e melhorias contínuas no sistema</li>
+</ul>
+</div>
+</div>
 
-        <section class="section">
-            <h2>Certificações e Reconhecimentos</h2>
-            <ul>
-                <li><strong>Engenharia de Prompts com IA</strong> – Udemy (Concluído)</li>
-                <li>Dominando Banco de Dados com <strong>MySQL</strong> e <strong>Stored Procedures</strong> – Udemy (Concluído)</li>
-                <li>Cursos de <strong>Compliance e Due Diligence</strong> (KYC/KYE) – Udemy (Concluído)</li>
-                <li><strong>Docker Essentials</strong> — Udemy (2024)</li>
+<div class="section">
+<h2>Habilidades</h2>
+<div class="card">
+<strong>Back-end:</strong><br>
+<span class="badge">PHP</span>
+<span class="badge">MySQL</span>
 
-                <li><strong>Bootcamp de Data Science com Python</strong>, Visão Computacional e <strong>Git/GitHub para Iniciantes</strong> (Em Andamento) – Udemy</li>
+<br><br>
 
-                <li><strong>Medalha de Prata</strong> e honra ao mérito — Olimpíada Nacional de Ciências MCT (2022)</li>
-                <li><strong>3º Lugar</strong> — Competição de Programação Online IFPR (2020)</li>
-                <li>NDG Linux Unhatched (2023) e Networking Essentials (2023) — Cisco Networking Academy</li>
-                
-                <li>Cursos de Extensão: Programação WEB Completo (2021), Hispanidad (2022) e Minicursos diversos.</li>
-                <li>6 Menções Honrosas — Desempenho escolar excepcional (2022-2023)</li>
-                <li>Participação no Programa PESC (2023)</li>
-            </ul>
-        </section>
+<strong>Linguagens:</strong><br>
+<span class="badge">C</span>
+<span class="badge">Java</span>
+<span class="badge">Python</span>
 
-        <section class="section">
-            <h2>Atividades Extracurriculares</h2>
-            <ul>
-                <li>Bolsista: <strong>PESEM</strong> (2021-2022), <strong>REACTION</strong> (2022-2023), <strong>PAIPE</strong> (2022) – Foco em <strong>simulações estocásticas</strong> e <strong>inovação educacional</strong>.</li>
-                <li>Organizadora de Competição de Robótica e módulos do Manna Academy (ministrante).</li>
-                <li>Voluntária em projeto de robótica educacional para crianças em escolas públicas, ensinando programação básica com Lego Education.</li>
-                <li>Membro ativo do <strong>grupo de estudos de Python na UTFPR</strong>, organizando workshops mensais.</li>
-            </ul>
-        </section>
+<br><br>
 
-        <section class="section">
-            <h2>Idiomas</h2>
-            <ul>
-                <li>Inglês - <strong>Básico</strong> (<strong>leitura técnica</strong>)</li>
-                <li>Espanhol - <strong>Básico</strong> (conhecimentos adquiridos em projetos colaborativos e curso de extensão)</li>
-            </ul>
-        </section>
-        
-        <section class="section">
-            <h2>Interesses</h2>
-            <ul>
-                <li>Análise Investigativa e de Comportamento (Desenvolve o mindset para depuração de código e rastreamento de falhas complexas).</li>
-                <li>Música (Violão, Violino e Guitarra) (Promove criatividade, foco em projetos inovadores e coordenação rítmica).</li>
-                <li>Jogos, filmes e séries (Interesse em narrativa, design de interface e otimização de performance de sistemas).</li>
-            </ul>
-        </section>
+<strong>Front-end:</strong><br>
+<span class="badge">HTML</span>
+<span class="badge">CSS</span>
+<span class="badge">Bootstrap</span>
 
-        <footer>
-            © 2025 Heloísa Contrera • Desenvolvedora Full Stack Júnior • helo.contreta@gmail.com
-        </footer>
-    </div>
+<br><br>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const toggleButton = document.getElementById('theme-toggle');
-            const body = document.body;
-            
-            const applyTheme = (theme) => {
-                if (theme === 'dark') {
-                    body.classList.add('dark-mode');
-                    toggleButton.textContent = 'Modo Claro'; 
-                    toggleButton.title = 'Alternar para Modo Claro';
-                } else {
-                    body.classList.remove('dark-mode');
-                    toggleButton.textContent = 'Modo Escuro'; 
-                    toggleButton.title = 'Alternar para Modo Escuro';
-                }
-                localStorage.setItem('theme', theme);
-            };
+<strong>Ferramentas:</strong><br>
+<span class="badge">Git</span>
+<span class="badge">Linux</span>
+<span class="badge">VSCode</span>
+</div>
+</div>
 
-            const currentTheme = localStorage.getItem('theme');
-            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            
-            let initialTheme = 'light';
-            if (currentTheme) {
-                initialTheme = currentTheme;
-            } else if (prefersDark) {
-                initialTheme = 'dark';
-            }
+<div class="section">
+<h2>Projetos</h2>
 
-            applyTheme(initialTheme);
+<div class="card">
+<strong>Sistema Web (PHP + MySQL)</strong><br>
+Sistema com autenticação, CRUD e manipulação de dados.
+</div>
 
-            toggleButton.addEventListener('click', () => {
-                const newTheme = body.classList.contains('dark-mode') ? 'light' : 'dark';
-                applyTheme(newTheme);
-            });
-        });
-    </script>
+<div class="card">
+<strong>MANNASPY</strong><br>
+Robô educacional voltado à tecnologia e segurança digital.
+</div>
+
+<div class="card">
+<strong>Monte Carlo</strong><br>
+Simulação para cálculo de π e análise de números pseudoaleatórios.
+</div>
+
+</div>
+
+<div class="section">
+<h2>Formação</h2>
+
+<div class="card">
+<strong>UTFPR</strong> – Ciência da Computação<br>
+2024 – Atual
+</div>
+
+<div class="card">
+<strong>IFPR</strong> – Técnico em Informática<br>
+2020 – 2023
+</div>
+
+</div>
+
+<div class="section">
+<h2>Certificações</h2>
+
+<div class="card">
+<ul>
+<li>Full Stack PHP Developer – UpInside</li>
+<li>Banco de Dados com MySQL – Udemy</li>
+<li>Desenvolvimento Seguro – Udemy</li>
+<li>Engenharia de Prompts com IA – Udemy</li>
+<li>Linux e Networking – Cisco</li>
+</ul>
+
+<p style="margin-top:10px;">
+🔗 Certificados completos disponíveis no LinkedIn
+</p>
+</div>
+
+</div>
+
+<div class="section">
+<h2>Conquistas</h2>
+<div class="card">
+🥈 Olimpíada Nacional de Ciências (2022)<br>
+🥉 Competição de Programação IFPR
+</div>
+</div>
+
+</div>
+
+<script>
+function toggleTheme() {
+    document.body.classList.toggle("dark");
+}
+</script>
+
 </body>
 </html>
